@@ -1,0 +1,47 @@
+{
+    "input_group_parameters":[
+        
+    ],
+    "template_input_params": [
+        {
+            "name": "variavel1",
+            "description": "Descricao.",
+            "type": "string",
+            "required": true,
+            "secured": false,
+            "label": "Label",
+            "hidden": false,
+            "immutable": false
+      },
+      {
+        "name": "variavel2",
+        "description": "Descricao.",
+        "type": "string",
+        "required": false,
+        "secured": false,
+        "label": "Label",
+        "hidden": false,
+        "immutable": false
+  },
+{
+    "name": "variavel3",
+    "description": "Descricao.",
+    "type": "string",
+    "required": false,
+    "secured": false,
+    "label": "Label",
+    "hidden": false,
+    "immutable": false
+}
+    ],
+    "template_output_params" : [
+            {
+            "name": "variaveloutput",
+            "description": "Descricao.",
+            "type": "string",
+            "secured": false,
+            "label": "Label",
+            "hidden": false
+        }
+    ]
+}
